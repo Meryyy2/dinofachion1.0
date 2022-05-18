@@ -21,8 +21,12 @@
     <link rel="icon" href="./static/img/LogoS&L_Logo S&L_Logo S&L.png">
     <script src="https://kit.fontawesome.com/3e26a1e3ce.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c7618ab45e.js" crossorigin="anonymous"></script>
+
+    
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+    
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
@@ -46,12 +50,12 @@
     </nav>
     <section class="home" id="home">
         <div class="max-width">
-            <div class="home-conten">
-                <div class="column left">
+            <div class="home-conten" >
+                <div class="column left" data-aos="fade-up">
                     <img src="img/prin.png" alt="">
               
                 </div>
-                <div class="column right">
+                <div class="column right" data-aos=" fade-left">
                     <div class="text">DINO <span>FASHION</span></div>
                     <p>
                         En dinoFashion encontraras ropa a la moda, y con los mejores precios, descuentos, aprovecha.
@@ -62,11 +66,11 @@
         </div>
     </section>
     <h2 class="text-center fw-bold  m-t-2">Categorias</h2>
-    <div class="cards-list">
+    <div class="cards-list" data-aos="fade-up">
 
   
       <div class="card 1">
-        <div class="card_image"> <img src="https://images.squarespace-cdn.com/content/v1/579202971b631b5dbc741986/1591220116224-WGW6E75TT24SEOQBPY1M/b20029616e26c313af7db34884bb13a0.jpg?format=1500w" /> </div>
+        <div class="card_image"data-aos=" fade-left"> <img src="https://images.squarespace-cdn.com/content/v1/579202971b631b5dbc741986/1591220116224-WGW6E75TT24SEOQBPY1M/b20029616e26c313af7db34884bb13a0.jpg?format=1500w" /> </div>
         <div class="card_title title-white">
           <p>Pantalones</p>
         </div>
@@ -110,9 +114,9 @@
     <section class="about" id="about">
         <div class="max-width">
             <div class="about-content">
-                <div class="column left">
+                <div class="column left" data-aos="fade-up">
                 </div>
-                <div class="column right">
+                <div class="column right" data-aos="flip-down">
                     <div class="text">About DINO <span>FASHION</span></div>
                     <p class="fw-bold">
                         Dinofashion con clara vocación internacional y con la intención de vestir a jóvenes comprometidos con su entorno, que viven en comunidad y se relacionan entre sí. Jóvenes que visten de forma relajada, huyendo de los estereotipos y que quieren sentirse bien con lo que llevan. Para ellos Dinofashion recoge las últimas tendencias internacionales, las mezcla con las influencias que marca la calle y los clubs de moda, y las reinterpreta a su estilo para transformarlas en prendas cómodas y fáciles de llevar
@@ -161,7 +165,7 @@
             <br>
             <h2 class="text-center fw-bold">Contact me</h2>
             <div class="contact-content">
-                <div class="column left">
+                <div class="column left"data-aos="zoom-in-left">
                     <div class="text">Get in Touch</div>
                     <p>You can contact us by the following means:</p>
                     <div class="icons">
@@ -188,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column right">
+                <div class="column right"data-aos="zoom-in-down">
                     <div class="text">Message me</div>
                     <form action="#">
                         <div class="fields">
@@ -215,7 +219,7 @@
         </div>
     </section>
     <footer class="pie-pagina">
-        <div class="grupo-1">
+        <div class="grupo-1" data-aos="zoom-in-left">
             <div class="box">
                 <figure>
                     <a href="#">
@@ -237,10 +241,16 @@
                 </div>
             </div>
         </div>
-        <div class="grupo-2">
+        <div class="grupo-2" data-aos="zoom-in-down">
             <small>&copy; 2022 <b>DINO FASHION</b> - All rights reserved.</small>
         </div>
     </footer>
     <script src="JS/scrips.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
 </body>
 </html>
