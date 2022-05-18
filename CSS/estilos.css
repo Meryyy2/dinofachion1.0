@@ -222,6 +222,66 @@ section .home-conten,
           justify-content: space-between;
 }
 
+
+/* about */
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("https://www.tuexperto.com/wp-content/uploads/2022/02/los-mejores-fondos-de-pantalla-aesthetic-para-pc-04-1200x675.jpg");
+  height: 100vh;
+  color: rgb(0, 0, 0);
+  min-height: 500px;
+}
+
+.about .about-content .left img {
+  height: 400px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5%;
+}
+
+.about .about-content .right {
+  padding: 25px;
+  background: rgba(198, 206, 214, 0.671);
+  width: 50%;
+}
+
+.about .about-content .right .text {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.about .about-content .right .text span {
+  color: #1f5049;
+}
+
+.about .about-content .right p {
+  text-align: justify;
+}
+
+.about .about-content .right a {
+  display: inline-block;
+  background: #042aff;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #042aff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.about .about-content .right a:hover {
+  color: #042aff;
+  background: none;
+}
+
+
 .card {
   margin: 12px auto;
   width: 200px;
@@ -556,7 +616,12 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
         -ms-flex: 100%;
             flex: 100%;
   }
-  
+  .about .about-content .column {
+    width: 100%;
+  }
+  .about .about-content {
+    font-size: 15px !important;
+  }
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
