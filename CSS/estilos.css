@@ -153,6 +153,7 @@ html {
   color: rgb(10, 10, 10);
   min-height: 500px;
   background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190830/pngtree-color-network-with-dots-on-white-background-image_310198.jpg");
+  overflow-x: hidden;
 }
 
 .home .max-width {
