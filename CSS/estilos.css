@@ -203,7 +203,20 @@ html {
   flex-wrap: wrap;
   background:#e284e2;
 }
-
+section .home-conten,
+.contact .contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 
 .card {
   margin: 30px auto;
