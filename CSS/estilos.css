@@ -17,12 +17,6 @@ html {
   margin: auto;
 }
 
-.max-width {
-  max-width: 1300px;
-  padding: 0 80px;
-  margin: auto;
-}
-
 /* nav style */
 .navbarr {
   position: fixed;
@@ -145,7 +139,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url("/static/img/fondo.jpg");
+
   height: 100vh;
   color: rgb(0, 0, 0);
   min-height: 500px;
