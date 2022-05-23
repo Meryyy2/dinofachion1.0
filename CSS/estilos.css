@@ -429,6 +429,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 45px;
+  padding: 40px 0px;
 }
 
 .product_section .btn-box a {
