@@ -155,7 +155,6 @@ html {
 section .home-conten,
 .product .product-conten,
 .category .category-content,
-.about .about-content,
 .contact .contact-content {
   display: -webkit-box;
   display: -ms-flexbox;
