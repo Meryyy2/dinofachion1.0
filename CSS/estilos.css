@@ -779,6 +779,44 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
       -ms-flex-align: center;
           align-items: center;
 }
+/* Estilos para la tabla */
+#productos {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#productos th, #productos td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para los encabezados de la tabla */
+#productos th {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para las filas impares */
+#productos tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Estilos cuando se pasa el cursor sobre una fila */
+#productos tr:hover {
+  background-color: #eaeaea;
+}
+
+/* Estilos para los botones */
+#productos button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
 
 .right form .button-area button {
   color: #fff;
@@ -813,13 +851,12 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   padding: 45px 0px;
 }
+
 
 .pie-pagina .grupo-1 .box figure {
   width: 100%;
@@ -963,11 +1000,12 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   }
   .pie-pagina .grupo-1 {
     width: 90%;
-    -ms-grid-columns: (1fr)[1];
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
   }
+  
 }
 
 

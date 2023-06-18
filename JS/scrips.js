@@ -23,33 +23,11 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    /* tryping word */
-    var typed = new Typed(".typing", {
-        strings: ["", "Citas reservadas", "Diagnosticamos problemas de salud", "Vacunamos contra enfermedades", "Tratamos heridas", "Establecemos fracturas"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true 
-    });
 
-    /* owl carousel */
-    $('.carsel').owlCarousel({
-        margin: 20,
-        loop: true,
-        autoplayTimeOut: 2000,
-        autoplayHoverPause: true,
-        responsive: {
-            0:{
-                items: 1,
-                nav: false
-            },
-            600:{
-                items: 2,
-                nav: false
-            },
-            1000:{
-                items: 3,
-                nav: false
-            }
-        }
-    });
+   
 }); 
+
+function agregarAlCarrito(producto) {
+    console.log('Agregado al carrito: ' + producto);
+    
+  }
